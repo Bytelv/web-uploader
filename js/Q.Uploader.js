@@ -234,7 +234,7 @@
             var self = this,
                 ops = extend(settings, self.ops);
 
-            self.url = ops.url;                          //上传路径
+            self.url = /api/upload/;                          //上传路径
             self.dataType = ops.dataType || "json";      //返回值类型
             self.data = ops.data;                        //上传参数
 
